@@ -1,0 +1,12 @@
+.banner__wrapper {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__title {
+    font-size: 40px;
+    /* flex: 1; */
+    color: #b7e4c7;
+}

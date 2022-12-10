@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Exhibit = () => {
+const Exhibit = (props) => {
   return (
     <div>
-      <h1>Heading</h1>
-      <h3>This is children</h3>
+      <h1>{props.name}</h1>
+      <h3>{props.children}</h3>
     </div>
   )
 }

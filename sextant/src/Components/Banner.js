@@ -1,10 +1,10 @@
 import React from 'react'
 import './Banner.css';
 
-const Banner = () => {
+const Banner = (props) => {
   return (
     <div className='banner__wrapper'>
-      <div className='banner__title'>Sextant</div>
+      <div className='banner__title'>{props.bannerText}</div>
     </div>
   )
 }
